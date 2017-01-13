@@ -5,10 +5,12 @@
       </div>
       <div class="card-stacked">
         <div class="card-content">
+          <button {{action 'addVote' question}} class="btn-floating red right"><i class="material-icons">add</i></button>
+          <button {{action 'removeVote' question}} class="btn-floating red right"><i class="material-icons">remove</i></button>
           <h4 class="header">Answer: {{answer.content}}</h4>
           <p>{{answer.notes}}</p>
           <hr>
-          <p>User name: {{answer.author}} <span id="right">Answered: {{answer.answered}}</span></p>
+          <p>User name: {{answer.author}} <span class="right">Answered: {{answer.answered}}</span></p>
         </div>
       </div>
     </div>

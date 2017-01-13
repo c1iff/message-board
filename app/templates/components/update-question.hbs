@@ -22,11 +22,11 @@
             <label for="notes">Enter any notes</label>
           </div>
         </div>
-        <button {{action 'updateQuestion' question}} class="btn blue">Submit</button>
+        <button {{action 'updateQuestion' question}} class="btn blue left">Submit</button>
       </form>
     </div>
   </div>
   {{else}}
-  <button class="btn yellow" {{action 'showQuestionForm'}}>Update Question</button><br>
+  <button class="btn yellow left" {{action 'showQuestionForm'}}>Update Question</button><br>
   {{/if}}
 </div>
