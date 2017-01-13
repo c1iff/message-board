@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         author: this.get('author'),
         content: this.get('content'),
         notes: this.get('notes'),
-        date: Date.now(),
+        answered: Date.now(),
         question: this.get('question')
       };
 
