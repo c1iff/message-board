@@ -15,6 +15,7 @@ export default Ember.Component.extend({
         content: this.get('content'),
         notes: this.get('notes'),
         answered: currentTime.toDateString() + " at " + currentTime.toLocaleTimeString(),
+        vote: "0",
         question: this.get('question')
       };
 

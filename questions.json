@@ -1,34 +1,31 @@
 {
   "questions": [ {
     "author": "Chris C",
-    "asked": "1484271786163",
+    "asked": "Fri Jan 13 2017 at 12:51:29 PM",
     "content": "How to uninstall npm modules in node js?",
     "notes": "As commonly known, any npm module can be installed by running a simple command: npm install <module_name>. I have installed a few modules that I do not use anymore and I just want to get them off.",
-    "votes": "0",
     "answers": []
   },
   {
     "author": "Chris C",
-    "asked": "1484271786163",
+    "asked": "Fri Jan 13 2017 at 12:51:29 PM",
     "content": "How to fix http redirects with Nginx?",
     "notes": "I have a webpage where http redirects are a bit broken. The current behavior is this: www.example.com, example.com, http://www.example.com, http://example.com, https://www.example.com all gets redirected to https://www.example.com",
-    "votes": "0",
     "answers": []
   },
   {
     "author": "Chris C",
-    "asked": "1484271786163",
+    "asked": "Fri Jan 13 2017 at 12:51:29 PM",
     "content": "When to use RSpec let()?",
     "notes": "I tend to use before blocks to set instance variables. I then use those variables across my examples. I recently came upon let(). According to RSpec docs, it is used to",
-    "votes": "0",
     "answers": []
     } ],
   "answers": [{
     "author": "Chris C",
-    "answered": "1484271786163",
+    "answered": "Fri Jan 13 2017 at 12:51:29 PM",
     "content": "",
     "notes": "",
-    "votes": "0",
+    "vote": "0",
     "question": ""
     }]
 }
