@@ -9,11 +9,12 @@ export default Ember.Component.extend({
     },
 
     saveAnswer() {
+      var currentTime = new Date();
       var params = {
         author: this.get('author'),
         content: this.get('content'),
         notes: this.get('notes'),
-        answered: Date.now(),
+        answered: currentTime.toDateString() + " at " + currentTime.toLocaleTimeString(),
         question: this.get('question')
       };
 

@@ -5,15 +5,16 @@ export default Ember.Component.extend({
 
   actions: {
     showQuestionForm() {
-      console.log('show question');
+
       this.set('addQuestionTag', true);
     },
     saveQuestion() {
+      var currentTime = new Date();  
       var params = {
         author: this.get('author'),
         content: this.get('content'),
         notes: this.get('notes'),
-        asked: Date.now(),
+        asked: currentTime.toDateString() + " at " + currentTime.toLocaleTimeString()
       }
       this.set('addQuestionTag', false);
       this.sendAction('saveQuestion', params)

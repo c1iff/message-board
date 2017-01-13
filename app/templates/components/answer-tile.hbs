@@ -1,13 +1,15 @@
-<div class="col s12 m7">
-  <div class="card horizontal">
-    <div class="card-image">
-    </div>
-    <div class="card-stacked">
-      <div class="card-content">
-        <h4 class="header">{{answer.content}}</h4>
-        <p>{{answer.notes}}</p>
-        <hr>
-        <p>{{answer.author}} <span id="right">{{answer.asked}}</span></p>
+<div class="container">
+  <div class="col s12 m7">
+    <div class="card horizontal">
+      <div class="card-image">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h4 class="header">Answer: {{answer.content}}</h4>
+          <p>{{answer.notes}}</p>
+          <hr>
+          <p>User name: {{answer.author}} <span id="right">Answered: {{answer.answered}}</span></p>
+        </div>
       </div>
     </div>
   </div>
