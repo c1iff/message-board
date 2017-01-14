@@ -1,7 +1,6 @@
 <div class="container">
   {{#if addQuestionTag}}
   <h4>Add a question:</h4>
-  <div class="container">
     <div class="row">
       <form class="col s12">
         <div class="row">
@@ -23,9 +22,9 @@
           </div>
         </div>
         <button {{action 'saveQuestion' question}} class="btn blue">Submit</button>
+        <button class="btn red right" {{action 'hideQuestionForm'}}>Cancel</button>
       </form>
     </div>
-  </div>
   {{else}}
   <button class="btn blue" {{action 'showQuestionForm'}}>New Question</button>
   {{/if}}

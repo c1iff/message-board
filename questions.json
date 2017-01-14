@@ -2,22 +2,22 @@
   "questions": [ {
     "author": "Chris C",
     "asked": "Fri Jan 13 2017 at 12:51:29 PM",
-    "content": "How to uninstall npm modules in node js?",
-    "notes": "As commonly known, any npm module can be installed by running a simple command: npm install <module_name>. I have installed a few modules that I do not use anymore and I just want to get them off.",
+    "content": "How to create reusable component in Ember 2.10?",
+    "notes": "I have a web application with couple pages, each uses Ember app with different components for different logic. But I came up to 1 component is going to be absolutely same for all those pages. I would like to make that component reusable. How to do that in scope of my web application?",
     "answers": []
   },
   {
-    "author": "Chris C",
-    "asked": "Fri Jan 13 2017 at 12:51:29 PM",
-    "content": "How to fix http redirects with Nginx?",
-    "notes": "I have a webpage where http redirects are a bit broken. The current behavior is this: www.example.com, example.com, http://www.example.com, http://example.com, https://www.example.com all gets redirected to https://www.example.com",
+    "author": "John L",
+    "asked": "Fri Jan 13 2017 at 1:33:03 PM",
+    "content": "Why do Actions functions not have access to the component?",
+    "notes": "The clickButton action has no access to the transitionToRoute function because it can't see the component. It only sees this as what is declared in the contents of this file or what is implicitly added in other ways. Why can't actions allowed to see the component? I've never understood this!",
     "answers": []
   },
   {
-    "author": "Chris C",
-    "asked": "Fri Jan 13 2017 at 12:51:29 PM",
-    "content": "When to use RSpec let()?",
-    "notes": "I tend to use before blocks to set instance variables. I then use those variables across my examples. I recently came upon let(). According to RSpec docs, it is used to",
+    "author": "Paul M",
+    "asked": "Fri Jan 13 2017 at 2:51:09 PM",
+    "content": "How to query firebase for key equalTo value with emberfire on emberjs 2?",
+    "notes": "Can anyone tell how do I build an emberfire with emberjs 2 query like this SQL query: SELECT * FROM my_db WHERE name='some_name'; DB in question: 'https://shoutoutdb.firebaseio.com/users23I've tried a lot of things, but nothing really worked, and I didn't find a clear solution for ember 2.",
     "answers": []
     } ],
   "answers": [{
