@@ -5,9 +5,11 @@
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <h4 class="header">Q: {{question.content}}</h4>
-          <hr>
-          <p>User Name: {{question.author}} <span id="right">Asked: {{question.asked}}</span></p>
+          <h5 class="header"><span class="red-text">Q:</span> {{question.content}}</h5>
+          <div class="divider"></div>
+          <div class="section">
+            <p><span class="pink-text">By:</span> {{question.author}} <span class="right"><span class="purple-text">Asked:</span> {{question.asked}}</span></p>
+          </div>
         </div>
       </div>
     </div>

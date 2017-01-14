@@ -8,6 +8,11 @@ nav .brand-logo {
   color: black;
 }
 
-#pad-to-left {
+#pad-button {
   margin-right: 10px;
+  margin-left: 10px;
+}
+
+#vote-pad {
+  padding-top: 10px;
 }

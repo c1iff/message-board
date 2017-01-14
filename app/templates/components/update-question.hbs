@@ -1,32 +1,32 @@
 <div class="container">
   {{#if updateQuestionTag}}
-  <h4>Update question:</h4>
   <div class="container">
+    <h4>Update question:</h4>
     <div class="row">
       <form class="col s12">
         <div class="row">
-          <div class="input-field inline col s12">
-            {{input value=author id="author" placeholder=question.author}}
-            <label for="author">User Name:</label>
+          <div class="input-field inline">
+            {{input value=author id="author" value=question.author}}
+            <label class="active" for="author">User Name:</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            {{input value=content id="content" placeholder=question.content}}
-            <label for="content">Enter Question</label>
+            {{input value=content id="content" value=question.content}}
+            <label class="active" for="content">Enter Question</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            {{input value=notes id="notes" placeholder=question.notes}}
-            <label for="notes">Enter any notes</label>
+            {{input value=notes id="notes" value=question.notes}}
+            <label class="active" for="notes">Enter any notes</label>
           </div>
         </div>
-        <button {{action 'updateQuestion' question}} class="btn blue left">Submit</button>
+        <button {{action 'updateQuestion' question}} class="btn purple left">Submit</button><br><br>
       </form>
     </div>
   </div>
   {{else}}
-  <button class="btn yellow left" {{action 'showQuestionForm'}}>Update Question</button>
+  <button class="btn purple right" {{action 'showQuestionForm'}}>Update Question</button>
   {{/if}}
 </div>

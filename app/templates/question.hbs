@@ -4,6 +4,7 @@
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
 
+<br>
 {{#each model.answers as |answer|}}
   {{answer-tile answer=answer addVote="addVote" removeVote="removeVote"}}
 {{/each}}

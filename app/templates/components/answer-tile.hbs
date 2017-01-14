@@ -6,14 +6,16 @@
       <div class="card-stacked">
         <div class="card-content">
           <form >
-            <button {{action 'addVote' answer}} class="btn-floating pink accent-3 right"><i class="material-icons">add</i></button>
-            <button {{action 'removeVote' answer}} class="btn-floating pink accent-3 right" id="pad-to-left"><i class="material-icons">remove</i></button>
+            <button {{action 'addVote' answer}} class="btn-floating pink accent-3 right" id="pad-button"><i class="material-icons">arrow_upward</i></button>
+            <p class="right" id="vote-pad"><b>Rating: {{answer.vote}}</b></p>
+            <button {{action 'removeVote' answer}} class="btn-floating pink accent-3 right" id="pad-button"><i class="material-icons">arrow_downward</i></button>
           </form>
-          <h4 class="header">Answer: {{answer.content}}</h4>
-          <p>{{answer.notes}}</p>
-          <p>Current Vote: {{answer.vote}}</p>
-          <hr>
-          <p>User name: {{answer.author}} <span class="right">Answered: {{answer.answered}}</span></p>
+          <h4 class="header"><span class="red-text">A:</span> {{answer.content}}</h4>
+            <p>{{answer.notes}}</p>
+          <div class="divider"></div>
+          <div class="section">
+            <p><span class="pink-text">By:</span> {{answer.author}} <span class="right"><span class="purple-text bold">Answered:</span>  {{answer.answered}}</span></p>
+          </div>
         </div>
       </div>
     </div>
